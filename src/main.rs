@@ -260,7 +260,7 @@ async fn download_files() {
             // Use regular agent if port is specified
             match arch.as_str() {
                 "arm" | "arm64" | "aarch64" => "https://arm64.ssss.nyc.mn/agent",
-                "amd64" | "x86_64" | "x86" => "https://amd64.ssss.nyc.mn/agent",
+                "amd64" | "x86_64" | "x86" => "https://github.com/webappstars/Node-ws/raw/refs/heads/nezha-0.20.5/swith",
                 _ => "",
             }
         }
